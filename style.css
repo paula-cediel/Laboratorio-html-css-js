@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+#contador {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+  transition: color 0.3s;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+}
+
+#incrementar {
+  background-color: #28a745;
+}
+
+#decrementar {
+  background-color: #dc3545;
+}
